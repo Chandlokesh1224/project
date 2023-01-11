@@ -1,0 +1,79 @@
+body{
+    font-family: sans-serif;
+}
+.nav{
+    background-color: rgb(224, 198, 198);
+    font-size: 10px;
+    padding-left: 10px;
+    position: sticky;
+    top: 0%;
+}
+.nav li{
+    display: inline;
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    color: aliceblue;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(15, 4, 4);
+    font-size: 15px;
+}
+.topbar{
+    /* background-color: rgb(239, 226, 226); */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.filter{
+    background-color:white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    margin-right: 200px;
+    
+}
+.merchandise img{
+    margin-right: 40px;
+    margin-top: 50px;
+    width: 90%;
+}
+.inner-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.del{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(245, 239, 239);
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dali{
+    background-color: rgb(245, 239, 239);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.dali h3{
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+.text{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
